@@ -1,10 +1,10 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"author": "Mayank",
+
 	"dependencies": {
 		"express": "^4.14.0"
 	},
-	"author": "Mayank",
-
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
