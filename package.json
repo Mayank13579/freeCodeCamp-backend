@@ -1,22 +1,23 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"author": "Mayank",
-	"description": "A project that does something awesome",
-	"keywords": [ "descriptive", "related", "words" ],
+	"author": "Mário Pereira",
+	"description": "A project that does absolutely nothing, probably.",
+	"version": "1.0.0",
+	"keywords": [
+		"freecodecamp",
+		"supermario",
+		"luigi"
+	],
 	"license": "MIT",
-
 	"dependencies": {
-	  "express": "^4.14.0"
+		"express": "^5.0.0-alpha.8"
 	},
 	"main": "server.js",
 	"scripts": {
-	  "start": "node server.js"
-	},
-	"engines": {
-	  "node": "8.11.2"
+		"start": "node server.js"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "https://idontknow/todo.git"
+		"type": "git",
+		"url": "https://idontknow/todo.git"
 	}
-  }
+}
