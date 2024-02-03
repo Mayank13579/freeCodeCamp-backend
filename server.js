@@ -9,6 +9,17 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
+
+// Read the contents of the package.json file
+const packageJsonContent = fs.readFileSync('package.json', 'utf-8');
+
+// Parse the content as JSON
+const packageJson = JSON.parse(packageJsonContent);
+
+// Access the "author" field and log it to the console
+console.log(packageJson.author);
+
+
 if (!process.env.DISABLE_XORIGIN) {
   app.use(function(req, res, next) {
     var allowedOrigins = ['https://narrow-plane.gomix.me', 'https://www.freecodecamp.com'];
